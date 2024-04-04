@@ -14,6 +14,11 @@ h1 {
   margin-bottom: 15px;
 }
 
+img {
+  display: block;
+  margin: auto;
+}
+
 #container1 {
   position: relative;
   float: left;
@@ -23,8 +28,8 @@ h1 {
   margin: 15px;
   position: relative;
   border: 1px solid black;
-  height:200px;
-  overflow: auto;
+  height:350px;
+/*  overflow: auto;*/
 }
 
 #container20 {
@@ -32,11 +37,11 @@ h1 {
 }
 
 #container21 {
-  background-color: #C7C9CE;
+  background-color: #E9EAEC;
 }
 
 #container22 {
-  background-color: #A5A9B1;
+  background-color: #E9EAEC;
 } 
 
 .p1 {
@@ -53,6 +58,7 @@ h1 {
 .p2 {
   width: 90%;
   margin: auto;
+  margin-top: 38px;
   clear: right;
 }
 
@@ -69,6 +75,12 @@ h1 {
   color: whitesmoke;
 } 
 
+#p1blue {
+  background-color: royalblue;
+  color: whitesmoke;
+} 
+
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -76,8 +88,8 @@ h1 {
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
-	.col-lg-4 {
-    width: 33.33%;
+	.col-lg-3 {
+    width: 25%;
   }
 }
 
@@ -85,9 +97,6 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
     width: 50%;
-  }
-  .col-md-12 {
-    width: 100%;
   }
 }
 
